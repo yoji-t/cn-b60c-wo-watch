@@ -19,18 +19,17 @@
   <div class="panel">
   <!-- WEEKS-LIST: 新しい週はこの <ul> の先頭に <li> を1行追加（新しい順）。weeks.json も同様に更新。 -->
   <ul class="weeks" id="weeks">
-    <!-- 例: <li><a href="weeks/2026-43/"><span class="wk">2026年第43週</span><span class="info">2026-10-22公開・N件、X文献ありM件</span></a></li> -->
+    <li><a href="weeks/2026-43/"><span class="wk">2026年第43週</span><span class="info">2026-10-22公開・0件（該当なし）</span></a></li>
   </ul>
   <!-- /WEEKS-LIST -->
   </div>
-  <p class="legend">まだレポートはありません。最初のレポートは 2026年第43週（2026-10-22公開分）を予定しています。</p>
 </main>
 <footer><div class="wrap">
   <h2>監視条件</h2>
   <ul>
     <li>データソース：WIPO PATENTSCOPE（PCT国際公開・国際調査報告）</li>
     <li>抽出条件：IPC が B60C を含む（全サブクラス） かつ 出願人の住所国が CN</li>
-    <li>検索式イメージ：<code>IC:B60C AND PAA:CN AND DP:[公開日]</code> ／週次リストは Browse by Week (PCT) で照合</li>
+    <li>検索式イメージ：<code>DP:[DD.MM.YYYY TO DD.MM.YYYY] AND IC:B60C AND AADC:CN</code> ／週次リストは Browse by Week (PCT) で照合</li>
     <li>要約は公開文献に基づく参考情報です。法的な判断には公式の公開PDFを参照してください。</li>
   </ul>
 </div></footer>

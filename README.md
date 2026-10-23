@@ -9,7 +9,7 @@
 - 対象: WIPO PATENTSCOPE の PCT 国際公開のみ（毎週木曜公開）
 - IPC: `B60C` を含む（全サブクラス、前方一致）
 - 出願人: 住所国が `CN` の出願人を含む（筆頭出願人に限らない）
-  - PATENTSCOPE 検索フィールド: `IC:B60C AND PAA:CN AND DP:YYYYMMDD`
+  - PATENTSCOPE 検索フィールド: `DP:[DD.MM.YYYY TO DD.MM.YYYY] AND IC:B60C AND AADC:CN`（AADC = Applicant Address Country、日付は DD.MM.YYYY 範囲指定）
   - 週次公開リスト（Browse by Week）でも照合し、筆頭以外に CN 出願人がいる共同出願の漏れを防ぐ
 - 各件の収録内容:
   - 一覧表: WO番号 / 出願人 / 発明の名称（日本語 + 原題）/ X文献の有無 / X文献の出願人
