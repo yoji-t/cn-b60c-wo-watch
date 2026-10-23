@@ -7,5 +7,23 @@
     "count": 0,
     "x_count": 0,
     "path": "weeks/2026-43/"
+  },
+  {
+    "week": "2026-39",
+    "label": "2026年第39週",
+    "published": "2026-09-24",
+    "gazette": "39/2026",
+    "count": 1,
+    "x_count": 1,
+    "path": "weeks/2026-39/"
+  },
+  {
+    "week": "2026-38",
+    "label": "2026年第38週",
+    "published": "2026-09-17",
+    "gazette": "38/2026",
+    "count": 1,
+    "x_count": 0,
+    "path": "weeks/2026-38/"
   }
 ]
